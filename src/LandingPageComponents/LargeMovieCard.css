@@ -1,0 +1,26 @@
+.large-movie-card {
+    position: relative;
+    width: 150px; 
+    height: 440px; 
+    text-align: center;
+    /* overflow: hidden; */
+    color: white;
+    flex-shrink: 0; 
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .large-movie-card img {
+    height: 440px;
+    width: 150px;
+    /* width: auto; */
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .large-movie-card h3 {
+    margin-top: 10px;
+    font-size: 1em;
+  }
+  
+ 

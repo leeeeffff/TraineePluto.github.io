@@ -1,0 +1,29 @@
+.movie-card {
+    /* width: 150px; */
+    width: 135px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    /* transition: transform 0.2s ease-in-out; */
+  }
+  
+  .movie-card img {
+    width: 135px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+  }
+  
+  .movie-card h3 {
+    margin-top: 10px;
+    font-size: 1em;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+    border: white 5px solid;
+    border-radius: 10px;
+  }
+  

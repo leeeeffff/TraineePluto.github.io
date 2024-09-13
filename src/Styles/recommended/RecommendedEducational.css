@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.educational {
+  background-color: #1f1f1f; 
+  height: 94.2vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+}
+
+.content-container {
+  position: relative; 
+  text-align: center;
+}
+
+.question {
+  font-size: 30px;
+  color: #646464;
+}
+
+.type {
+  font-size: 25px;
+  color: #646464;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  position: absolute; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  bottom: -60px; 
+  width: 100%; 
+  max-width: 700px; 
+}
+
+.input-field {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 430px;
+  flex-grow: 1; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 40px; 
+}
+
+.back-home {
+  margin-top: 0;
+}
+
+.back-home a {
+  display: inline-block; 
+  color: #646464;
+  text-decoration: none;
+  font-size: 18px;
+  border: 2px solid #646464;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  white-space: nowrap; 
+}
+
+.back-home a:hover {
+  background-color: #646464;
+  color: #fff;
+}
+
+.no {
+  font-size: 30px;
+  color: #646464;
+  position: absolute; 
+  top: -350%;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  width: 180%; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+}
+
